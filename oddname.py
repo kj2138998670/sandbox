@@ -2,11 +2,11 @@
 def main():
     name = get_name()
     num=int(input("enter the skip value"))
-    print_name(name)
+    print_name(name,num)
 
 
-def print_name(name):
-    print(name[::2])
+def print_name(name,num):
+    print(name[::num])
 
 
 def get_name():
